@@ -23,11 +23,18 @@ AdColony側のシステムと統合するために、インストールデータ
 必須パラメータ
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-:api_key: 御社のプロダクトのユーザアクションを通知するためのAPI Keyです。
-          API Keyが必要な方は tracking-support@adcolony.com までご連絡ください。
-:product_id: iTunesにおけるアプリIDか Google Playにおけるbundle IDを指定してください
-:raw_advertising_id: iOSのIDFA（MD5やSHA1などのハッシュ化はしないでください）
-:google_ad_id: Android端末における広告ID（MD5やSHA1などのハッシュ化はしないでください）
+api_key
+  御社のプロダクトのユーザアクションを通知するためのAPI Keyです。
+  API Keyが必要な方は tracking-support@adcolony.com までご連絡ください。
+
+product_id
+  iTunesにおけるアプリIDか Google Playにおけるbundle IDを指定してください
+  
+raw_advertising_id
+  iOSのIDFA（MD5やSHA1などのハッシュ化はしないでください）
+
+google_ad_id
+  Android端末における広告ID（MD5やSHA1などのハッシュ化はしないでください）
 
 任意パラメータ
 ^^^^^^^^^^^^^^^^^^^^^^^
