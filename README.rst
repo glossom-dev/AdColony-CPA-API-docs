@@ -1,6 +1,8 @@
 AdColony CPA API 仕様書
 =========================================
 
+*このドキュメントの内容はまだ社内確認中です、取り扱いにはご注意ください*
+
 このドキュメントは、AdColony_Integration_Guide_ を日本語に翻訳したものです
 
 .. _AdColony_Integration_Guide: ./AdColony_Integration_Guide.pdf
