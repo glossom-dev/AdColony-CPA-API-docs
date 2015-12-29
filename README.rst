@@ -75,4 +75,34 @@ Google Ad ID       [GOOGLE_AD_ID]     Android            プライマリID for A
 マクロ
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
+================== ===================== ===============================================
+変数               マクロ                説明
+================== ===================== ===============================================
+Product ID         [PRODUCT_ID]          iTunesにおけるアプリIDかGoogle Payのbundle ID
+App ID             [APP_ID]              SHA1でhashしたアプリID
+Publisher ID       [PUBLISHER_ID]        SHA1でhashしたパブリッシャーID
+キャンペーンID     [RAW_AD_CAMPAIGN_ID]  AdColonyキャンペーンID
+キャンペーン名     [AD_CAMPAIGN_NAME]    AdColonyキャンペーン名
+広告グループID     [RAW_AD_GROUP_ID]     AdColony広告グループID
+広告グループ名     [AD_GROUP_NAME]       AdColony広告グループ名
+クリエイティブID   [RAW_AD_CREATIVE_ID]  AdColony広告クリエイティブID
+クリエイティブ名   [AD_CREATIVE_NAME]    AdColony広告クリエイティブ名
+プラットフォーム   [PLATFORM]            iOS/Android
+OSバージョン       [OS_VERSION]          iOS 6.0.1などのOSバージョン
+端末タイプ         [DEVICE_MODEL]        iPad, iPhone, iPodなどの端末モデル
+国                 [COUNTRY]             端末の国コード
+IP                 [IP_ADDRESS]          端末のIPアドレス
+言語               [LANGUAGE]            端末言語設定
+================== ===================== ===============================================
 
+※ Product IDはクリックURLにもつけておくことが望ましい
+
+トラッキングURL 例
+^^^^^^^^^^^^^^^^^^^^^^^
+
+::
+
+   iOS
+   http://www.yoururl.com/?idfa=[IDFA]&prod_id=[PRODUCT_ID]&siteid=[APP_ID]
+   Android
+   http://www.yoururl.com/?gaid=[GOOGLE_AD_ID]&prod_id=[PRODUCT_ID]&siteid=[APP_ID]
