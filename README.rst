@@ -1,7 +1,9 @@
 AdColony CPA API 仕様書
 =========================================
 
-このドキュメントは、英語資料 https://cpa.adcolony.com/docs を日本語に翻訳したものです
+このドキュメントは、英語資料 AdColony_Integration_Guide_ を日本語に翻訳したものです
+
+.. _AdColony_Integration_Guide: ./AdColony_Integration_Guide.pdf
 
 .. toctree::
    :maxdepth: 2
