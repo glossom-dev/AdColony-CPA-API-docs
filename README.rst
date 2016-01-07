@@ -1,8 +1,6 @@
 AdColony CPA API 仕様書
 =========================================
 
-*このドキュメントの内容はまだ社内確認中です、取り扱いにはご注意ください*
-
 このドキュメントは、AdColony_Integration_Guide_ を日本語に翻訳したものです
 
 .. _AdColony_Integration_Guide: ./AdColony_Integration_Guide.pdf
@@ -27,7 +25,7 @@ AdColony側のシステムと統合するために、インストールデータ
 
 api_key
   御社のプロダクトのユーザアクションを通知するためのAPI Keyです。
-  API Keyが必要な方は tracking-support@adcolony.com までご連絡ください。
+  API Keyが必要な方は Glossom株式会社（video-ad@glossom.co.jp）、若しくは営業担当までご連絡ください。
 
 product_id
   iTunesにおけるアプリIDか Google Playにおけるbundle IDを指定してください
