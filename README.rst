@@ -36,6 +36,9 @@ raw_advertising_id
 google_ad_id
   Android端末における広告ID（MD5やSHA1などのハッシュ化はしないでください）
 
+click_id
+  Impression/click毎のIDを指定してください。
+
 任意パラメータ
 ^^^^^^^^^^^^^^^^^^^^^^^
 
